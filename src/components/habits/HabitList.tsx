@@ -128,7 +128,7 @@ export function HabitList({
               No habits yet
             </p>
             <p className="mx-auto mt-2 max-w-sm text-sm font-medium leading-relaxed text-[color:var(--dash-text-muted,#94a3b8)]">
-              Create your first habit to start a streak—they'll show up here.
+              Create your first habit to start a streak, they'll show up here.
             </p>
           </div>
         ) : (

@@ -153,7 +153,7 @@ export function HabitForm({
             </div>
 
             <p className="text-xs font-medium leading-relaxed text-[color:var(--dash-text-subtle,#64748b)]">
-              Habits repeat every calendar day—you mark completion once per day to
+              Habits repeat every calendar day, you mark completion once per day to
               keep your streak.
             </p>
           </div>

@@ -10,7 +10,8 @@
     "test:unit": "vitest run --coverage tests/unit",
     "test:integration": "vitest run tests/integration",
     "test:e2e": "playwright test",
-    "test": "npm run test:unit && npm run test:integration && npm run test:e2e"
+    "test": "npm run test:unit && npm run test:integration && npm run test:e2e",
+    "icons": "node scripts/build-pwa-icons.cjs"
   },
   "dependencies": {
     "next": "16.2.4",
@@ -31,6 +32,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "jsdom": "^26.1.0",
+    "sharp": "^0.34.1",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^3.1.2"

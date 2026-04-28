@@ -4,8 +4,8 @@
   "description": "Track daily habits locally in your browser.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fafafa",
-  "theme_color": "#059669",
+  "background_color": "#0c1222",
+  "theme_color": "#0c1222",
   "icons": [
     {
       "src": "/icons/icon-192.png",
