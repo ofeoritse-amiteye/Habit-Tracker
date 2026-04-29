@@ -1,9 +1,4 @@
-/**
- * Generates public/icons/icon-192.png and icon-512.png from a single source image.
- * Usage: place your artwork as one of:
- *   public/icons/icon-source.png | .jpg | .jpeg | .webp
- * then: npm run icons
- */
+
 const fs = require("fs");
 const path = require("path");
 

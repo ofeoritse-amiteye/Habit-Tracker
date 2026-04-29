@@ -47,7 +47,6 @@ export function setSession(session: Session | null): void {
   writeJson(SESSION_KEY, session);
 }
 
-/** Normalizes persisted habits to the Stage 3 contract (daily-only). */
 export function getHabits(): Habit[] {
   const rows = readJson<Habit[]>(HABITS_KEY, []);
   return rows.map((h) => ({
